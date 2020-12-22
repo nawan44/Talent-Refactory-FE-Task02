@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './pages/home/home.jsx';
+import Course from './pages/course/course.jsx';
+import Blog from './pages/blog/blog.jsx';
+import ListCourse from './pages/list-course/listCourse.jsx';
+import Footer from './component/footer.jsx';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import DetailCourse from './pages/detail-course/detailCourse';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/home' component={Home} />
+          <Route path='/course' component={Course} />
+          <Route path='/blog' component={Blog} />
+          <Route path='/list-course' component={ListCourse} />
+          <Route path='/detail-course' component={DetailCourse} />
+          
+        </Switch>
+      </BrowserRouter>
+      <Footer />
     </div>
   );
 }
