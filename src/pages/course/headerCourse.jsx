@@ -13,14 +13,14 @@ class HeaderCourse extends React.Component {
         return (
             <div className="header">
                 <NavMenu />
-                <div className="content-header">
+                <div className="content-header-course">
                     <h1>Tingkatkan <span>skill pemrograman</span> kapan pun, dimana pun.</h1>
                     <p>We’re a brand of passionate software engineers and educators with an engaging curriculum backed by real-world software projects ready to boost your career.</p>
 
                     <div style={badge}>
-                        <div className="badge1">Masuk & Memulai Belajar</div>
+                        <div className="badge-header-course1">Masuk & Memulai Belajar</div>
 
-                        <div className="badge2">Daftar Sekarang</div>
+                        <div className="badge-header-course2">Daftar Sekarang</div>
                     </div>
                 </div>
             </div>

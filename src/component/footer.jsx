@@ -4,6 +4,7 @@ import { Container, Row, Col, Badge } from 'reactstrap';
 
 
 
+
 class Footer extends React.Component {
     render() {
         return (
@@ -63,10 +64,6 @@ class Footer extends React.Component {
                                     +62 8122 8203 381
                         </p>
                                 <p>
-                                    Contact
-                                    marketing@refactory.id
-                                    +62 8122 8203 381
-
                                     Dewita: 0857 2582 7222
                                     Septin: 0878 2080 0206
                         </p>
@@ -75,12 +72,14 @@ class Footer extends React.Component {
                         </div>
                     </div>
                 </div>
-                <hr />
+               
                 <div className="copywright-footer">
+                 <hr />
                     <p> &copy; 2020 Refactory - All Rights Reserved - Terms of Services / Privacy Policy</p>
                 </div>
             </div>
         );
     }
 }
+
 export default Footer;

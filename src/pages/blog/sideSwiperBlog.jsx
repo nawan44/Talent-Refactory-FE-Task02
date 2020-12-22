@@ -23,8 +23,6 @@ class SideSwiperBlog extends React.Component {
                         spaceBetween={50}
                         loop={true}
                         pagination={{ clickable: true }}
-
-
                         autoplay={true}
                         slidesPerView={1}
                         onSwiper={(swiper) => console.log(swiper)}

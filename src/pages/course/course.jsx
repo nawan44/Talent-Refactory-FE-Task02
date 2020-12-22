@@ -19,7 +19,7 @@ class Course extends React.Component {
                     <div className="content-course1">
                         <div className="content-course1-left">
                             <h5>Bagaimana Refactory Course membantu <span>meningkatkan skill</span> anda</h5>
-                            <div className="badge1" >Pelajari lebih</div>
+                            <div className="badge-header-course1" >Pelajari lebih</div>
                         </div>
                         <div className="content-course1-right">
                             <img src={frame} />
@@ -35,24 +35,24 @@ class Course extends React.Component {
                             <p>Bagi karyawan atau tenaga profesional, Refactory Course dapat meningkatkan keahlian software engineer dalam menunjang menyelesaikan tugas pekerjaannya tanpa khawatir dengan keterbatasan waktu.</p>
 
                             <p>Masyarakat secara luas juga dapat memanfaatkan pembelajaran untuk meningkatkan keahlian sehingga mampu berkarya dan mendapat keuntungan karir tanpa khawatir mahalnya belajar.</p>
-                            <p><div className="badge1" >Daftar Sekarang</div></p>
+                            <p><div className="badge-header-course1" >Daftar Sekarang</div></p>
                         </div>
                         <div className="content-course2-right">
                             <img src={study} style={imgStudy} />
                         </div>
                         <div className="graduate-content">
-                            <h4>MEET OUR GRADUATES</h4>
+                            <h6>MEET OUR GRADUATES</h6>
                             <h4>Review</h4>
-                            <h4>Read what our alumni said on <span>Course Report</span></h4>
+                            <h5>Read what our alumni said on <span>Course Report</span></h5>
                         </div>
                     </div>
                     <div className="content-course3">
                         <div className="content-testi">
                             <div className="testi">
                                 <img src={Firhat} className="person-img" />
-                                <div class="w3-container">
-                                    <h4><b>MUHAMMAD FIRHAT</b></h4>
-                                    <h5>The other boss</h5>
+                                <div className="w3-container">
+                                    <h4>MUHAMMAD FIRHAT</h4>
+                                    <h5>Student</h5>
                                     <div className="star">
                                         <i class='fas fa-star'></i>
                                         <i class='fas fa-star'></i>
@@ -67,7 +67,7 @@ class Course extends React.Component {
                             <div className="testi">
                                 <img src={Erdi} className="person-img" />
                                 <div class="w3-container">
-                                    <h4><b>ERDIANSYAH</b></h4>
+                                    <h4>ERDIANSYAH</h4>
                                     <h5>The other boss</h5>
                                     <div className="star">
                                         <i class='fas fa-star'></i>

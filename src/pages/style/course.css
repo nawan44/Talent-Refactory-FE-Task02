@@ -2,6 +2,61 @@
     width: 100%;
     height: auto;
 }
+.content-header-course h4 {
+    width: 100%;
+    color: #fff;
+    float: left;
+    text-align: center;
+    margin: 120px 0 0 0;
+}
+
+.content-header-course {
+    width: 100%;
+    height: 470px;
+    color: red;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content-header-course h1 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 34px;
+    line-height : 40px ;
+    width: 600px;
+    color: #fff;
+    text-align:center;
+    margin : 0 auto;
+    padding:30px 0 0 0;
+
+}
+.content-header-course p {
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 16px;
+    line-height : 30px ;
+    width: 600px;
+    color: #efefef;
+    
+    text-align: center;
+    margin : 0 auto;
+    padding: 30px 0 0 0;
+    width: 550px;
+}
+
+.content-header-course h1 span {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 800;
+    font-size : 34px;
+    line-height : 40px ;
+
+    color: orange;
+}
+
 
 .content-course1 {
     width: 100%;
@@ -20,8 +75,13 @@
     margin: 20px 0 0 0;
 }
 
-.content-course1-left span {
-    color: orange;
+.content-course1-left h5 span {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 600;
+    font-size : 20px;
+    line-height : 40px ;
+    color:#e48800;
 }
 
 .content-course1-right img {
@@ -29,6 +89,13 @@
 }
 
 .content-course1-left h5 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 20px;
+    line-height : 40px ;
+    color:#0b162b;
+
     width: 80%;
     margin: 50px 5px 30px 50px;
 }
@@ -46,7 +113,60 @@
     text-align: left;
     float: left;
 }
+.content-course2-left h4{
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 700;
+    font-size : 24px;
+    line-height : 30px ;
+    color:#0b162b;
 
+    margin: 30px 0 30px 0;
+
+}
+.content-course2-left p{
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 15px;
+    line-height : 30px ;
+    color: rgba(11, 22, 43, 0.6);
+
+}
+.w3-container {
+    padding : 20px;
+}
+.w3-container h6 {
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 700;
+    font-size : 16px;
+    line-height : 30px ;
+    color: rgba(11, 22, 43, 0.8);
+    margin : 10px 0 20px 0;
+    text-align:left;
+
+}
+.w3-container h5{
+    text-align:left;
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 500;
+    font-size : 16px;
+    line-height : 30px ;
+    color: #999999;
+    margin : 10px 0 10px 0;
+}
+.w3-container h4 {
+    text-align:left;
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 22px;
+    line-height : 30px ;
+    color: #111111;
+    margin: 30px 0 20px 0;
+}
 .content-course2-right {
     width: 40%;
     height: auto;
@@ -55,9 +175,40 @@
 
 .graduate-content {
     width: 100%;
+    padding:40px 0 30px 0;
     float: left;
+    background-color:#F4F5F6;
+    margin :20px 0 20px 0;
 }
+.graduate-content h6 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 15px;
+    line-height : 20px ;
+    color : rgba(11, 22, 43, 0.6);
+    width: 100%;
 
+}
+.graduate-content h4 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 700;
+    font-size : 34px;
+    line-height : 40px ;
+    color : #0b162b;
+    width: 100%;
+    margin : 30px 0 30px 0;
+}
+.graduate-content h5 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 22px;
+    line-height : 30px ;
+    color : #0b162b;
+    width: 100%;
+}
 .content-course3 {
     width: 100%;
     height: 850px;
@@ -69,13 +220,15 @@
 
 .person-img {
     width: 300px;
+    text-align:center;
+    margin : 0 auto;
 }
 
 .testi {
     padding: 10px;
     width: 47%;
     float: left;
-    height: 700px;
+    height: 800px;
     margin: 10px;
     -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
     -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
@@ -91,11 +244,14 @@
 }
 
 .star i {
+    text-align:left;
+    margin: 0 0 20px 0;
     color: #E48800;
 }
 
 .content-course4 {
-    width: 100%;
+    margin : 200px 0 0 0;
+width:100%;
     height: 120px;
     background: #1A2980;
     /* fallback for old browsers */
@@ -106,7 +262,12 @@
 }
 
 .content-course4-left {
-    color: white;
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 22px;
+    line-height : 30px ;
+    color : #fff;
     float: left;
     padding: 40px;
     width: 50%;
@@ -124,10 +285,24 @@
     padding: 30px;
 }
 
-.content-course5 h5 {
+.content-course5 h6{
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 600;
+    font-size : 12px;
+    line-height : 40px ;
+    color : #e48800;
+}
+.tagline h5 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 700;
+    font-size : 22px;
+    line-height : 30px ;
+    color : #0b162b;
     text-align: center;
     margin: 0 auto;
-    width: 180px;
+    width: 280px;
 }
 
 .tagline {
@@ -140,18 +315,40 @@
     margin: 0 0 40px 0;
 }
 
-.badge1 {
-    width: 200px;
+.badge-header-course1 {
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 500;
+    font-size : 12px;
+    line-height : 12px ;
+    
+    width: 250px;
+    height :40px;
     float: left;
     background-color: orange;
     color: #fff;
     font-size: 15px;
     text-align: center;
+    padding: 15px 20px 10px 25px;
+    border-radius: 20px;
+    margin: 0 20px 0 50px;
+}
+.badge-header-course2{
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 500;
+    font-size : 12px;
+    line-height : 12px ;
+
+    width: 200px;
+    float: left;
+    border: 1px orange solid;
+    color: #fff;
+    font-size: 15px;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
     margin: 0 20px 0 50px;
 }
-
 .badge-middle {
     width: 240px;
     background-color: orange;

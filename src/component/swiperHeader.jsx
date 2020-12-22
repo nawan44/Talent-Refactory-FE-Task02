@@ -29,6 +29,7 @@ SwiperCore.use([Autoplay]);
 //     // opacity: 0.6
 // }
 
+
 class SwiperHeader extends React.Component {
 
     render() {
@@ -39,7 +40,7 @@ class SwiperHeader extends React.Component {
                         spaceBetween={50}
                         loop={true}
                         autoplay={true}
-                        slidesPerView={2}
+                        slidesPerView={3}
                         onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={() => console.log('slide change')}
 

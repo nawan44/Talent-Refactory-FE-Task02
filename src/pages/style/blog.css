@@ -29,13 +29,23 @@
 }
 
 .blog-medsos h4 {
-    color: #EEA800;
-    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 500;
+    font-size : 12px;
+    line-height : 18px ;
+    color : #e48800;
     text-align: left;
     margin: 10px 0 10px 0;
 }
 
 .blog-medsos h3 {
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 500;
+    font-size : 20px;
+    line-height : 20px ;
+
     color: black;
     font-size: 20px;
     text-align: left;
@@ -43,6 +53,12 @@
 }
 
 .blog-medsos p i {
+    /* font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 600;
+    font-size : 14px;
+    line-height : 26px ; */
+
     margin: 0 10px 0 0;
     color: #95D5EC;
 
@@ -75,20 +91,48 @@
     height: auto;
     float: left;
 }
+.jumbo-child h3 {
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 600;
+    font-size : 12px;
+    line-height : 19px ;
+    color : #e89a01;
+    text-align: left;
+    margin: 30px 0 20px 0;
+}
 
 .jumbo-child h6 {
-    color: orange;
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 500;
+    font-size : 12px;
+    line-height : 22px ;
+    color : #e48800;
+
     text-align: left;
     margin: 30px 0 20px 0;
 }
 
 .jumbo-child p {
-    color: #A1839C;
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 12px;
+    line-height : 18px ;
+    color : #7a8189;
     text-align: left;
     margin: 20px 0 20px 0;
 }
 
 .jumbo-child h5 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 16px;
+    line-height : 34px ;
+    color : #373c44;
+
     color: black;
     text-align: left;
     margin: 10px 0 10px 0;
@@ -106,18 +150,46 @@
 }
 
 .jumbo h6 {
-    color: orange;
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 500;
+    font-size : 12px;
+    line-height : 22px ;
+    color : #e48800;
     text-align: left;
     margin: 30px 0 20px 0;
 }
-
+.jumbo h3 {
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 600;
+    font-size : 12px;
+    line-height : 19px ;
+    color : #e89a01;
+    text-align: left;
+    margin: 30px 0 20px 0;
+}
 .jumbo p {
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 12px;
+    line-height : 18px ;
+    color : #7a8189;
+
     color: #A1839C;
     text-align: left;
     margin: 20px 0 20px 0;
 }
 
 .jumbo h5 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 18px;
+    line-height : 34px ;
+    color : #373c44;
+
     color: black;
     text-align: left;
     margin: 10px 0 10px 0;
@@ -138,9 +210,13 @@
 }
 
 .blog-artikel-populer h5 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 500;
+    font-size : 16px;
+    line-height : 16px ;
+    color : #e48800;
     margin: 30px 0 10px 0;
-    color: orange;
-
 }
 
 .blog-artikel-populer h6 {
@@ -154,8 +230,22 @@
     width: 100%;
     height: 300px;
 }
-
-
+.artikel p{
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 18px;
+    line-height : 34px ;
+    color : #000000;
+}
+.artikel h3{
+        font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 600;
+    font-size : 12px;
+    line-height : 19px ;
+    color : #e89a01;
+}
 
 .row2 {
     width: 100%;
@@ -168,6 +258,13 @@
 }
 
 .row-carousel h3 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 700;
+    font-size : 28px;
+    line-height : 28px ;
+    color : #0b162b;
+
     margin: 50px;
 }
 
@@ -225,6 +322,7 @@
 }
 
 .badge-blog1:hover {
+    color: #fff;
     background-color: orange;
 
 }
@@ -237,10 +335,25 @@
     width: 80%;
     text-align: center;
     margin: 0 auto;
-    height: 700px;
+    height: 600px;
     background-color: #ffff;
 }
-
+.side-swiper h5 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 14px;
+    line-height : 17px ;
+    color : #e48800;
+}
+.side-swiper p{
+    font-family: Montserrat, sans-serif;
+    font-style :normal;
+    font-weight : 400;
+    font-size : 12px;
+    line-height : 22px ;
+    color : #3a3a3a;
+}
 .blog-case {
     background-color: #F9F9F9;
     padding: 30px 0 0 0;
@@ -252,13 +365,19 @@
 
 .side-swiper-blog {
     width: 100%;
-    height: 900px;
+    height: 800px;
     text-align: center;
     margin: 0 auto;
 
 }
 
 .blog-case h5 {
+    font-family: Raleway, sans-serif;
+    font-style :normal;
+    font-weight : 500;
+    font-size : 16px;
+    line-height : 16px ;
+    color : #e48800;
     padding: 20px 0 20px 0;
 }
 

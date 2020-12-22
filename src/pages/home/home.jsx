@@ -72,16 +72,6 @@ class Home extends React.Component {
                             <img src={inilahcom} />
 
 
-                            {/* 
-                            {image.data.map((item, i) => {
-                                return (
-                                    <div key={i}><img src={item.photo_url} ></img></div>
-
-                                );
-                            })} */}
-
-
-
 
                         </div>
                     </div>
