@@ -7,7 +7,6 @@ Dibangun dengan :
   <li>Javascript</li>
   <li>ReactJs
   <ul>
-   <li> axios: 0.21.0 </li>
     <li>bootstrap: 4.5.3</li>
    <li> react: 17.0.1</li>
    <li> react-dom: 17.0.1</li>
