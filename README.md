@@ -7,14 +7,14 @@ Dibangun dengan :
   <li>Javascript</li>
   <li>ReactJs
   <ul>
-   <li> "axios": "^0.21.0" </li>
-    <li>"bootstrap": "^4.5.3"</li>
-   <li> "react": "^17.0.1"</li>
-   <li> "react-dom": "^17.0.1"</li>
-    <li>"react-router-dom": "^5.2.0"</li>
-    <li>"react-scripts": "4.0.1"</li>
-    <li>"reactstrap": "^8.7.1"</li>
-    <li>"swiper": "^6.4.5"</li>
+   <li> axios: 0.21.0 </li>
+    <li>bootstrap: 4.5.3</li>
+   <li> react: 17.0.1</li>
+   <li> react-dom: 17.0.1</li>
+    <li>react-router-dom: 5.2.0</li>
+    <li>react-scripts: 4.0.1</li>
+    <li>reactstrap: 8.7.1</li>
+    <li>swiper: 6.4.5</li>
     </ul>
   </li>
 
