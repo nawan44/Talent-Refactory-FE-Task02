@@ -1,6 +1,9 @@
 # Talent-Refactory-FE-Task02
 
-Dibangun dengan :
+#IDE : 
+Menampilkan informasi kursus dan menambahkan link khusus langsung ke halaman konten kursus
+
+#Dibangun dengan :
 <ul>
   <li>HTML</li>
     <li>CSS</li>
